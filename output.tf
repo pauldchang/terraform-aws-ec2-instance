@@ -1,3 +1,3 @@
-output "aws_instance.public_ip" {
+output "ip" {
     value = aws_instance.terraform6.public_ip
 }
