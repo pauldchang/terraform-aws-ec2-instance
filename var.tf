@@ -10,6 +10,6 @@ variable "ami"  {
 variable "key_name" {
     default = "paul-20240504153439213000000001"
 }
-variable "instance type" {
+variable "instance_type" {
     default = "t2.micro"
 }
